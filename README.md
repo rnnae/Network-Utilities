@@ -6,7 +6,7 @@ Feel free to explore, contribute, or use it in your projects!
 //
 
 
-To compile the library with GCC - "gcc -o main main.c -L. -lnetworkutils -I. -lm -lgmp -lws2_32"
+To compile the library with GCC - "gcc -shared -o libnetworkutils.dll network_utils.c -fPIC -lm -lgmp -lws2_32"
 
 
 
